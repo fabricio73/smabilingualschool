@@ -1,0 +1,1641 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swrap');
+
+
+      /*RESPONSIVE DESIGN*/
+
+
+  @media (min-width:1200px)    /*screen that the size goes toward big*/
+{
+
+ *{
+        margin: 0; 
+        padding: 0;
+        box-sizing: border-box; 
+      }
+      .header{
+          background: linear-gradient(90deg,#293245,cyan,gray);
+          padding: 6px; 
+        }
+        .header span{
+        
+          color:red;
+          padding:14px;
+          font-size:20px;
+          margin-left:60px; 
+          position:absolute;
+          margin-top:-14px;
+        }
+        .header marquee{
+          color:white;
+          font-size:20px;
+          width:90%;
+          
+        }
+        .M{
+          font-family: 'Times New Roman',Times, serif;
+          font-size: 16px;
+          padding-top:4px ;
+          padding-bottom:1px;
+        } 
+      
+      body{
+      
+         font-family: 'Poppins',   sans-serif;     
+      }
+      
+      p{
+          font-size:x-large;
+          font-family: 'Times New Roman', Times, serif;
+          font-style: normal;
+      }
+      .navbar{
+      
+          display: flex;
+          align-items: center;
+      
+      }
+      .logetl{
+      
+          margin-left:-10;
+          margin-top:-30px;
+      }
+      
+      .logetl .Logoim{
+      
+          height:70px;
+          margin-left:62px;
+      }
+      
+      .language{
+      
+          margin-left:58px;
+          padding: 14px3px ;  
+        }
+      
+      nav{
+      
+          flex: 1;
+          text-align:right;
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 18px; 
+      }
+      nav ul{
+      
+         display:inline-block;
+         list-style-type: none; 
+      }
+      nav ul li{
+      
+          display:inline-flex;
+          margin-right:20px;
+          
+       }
+       nav ul li a{
+      
+       text-decoration: none;
+
+       color: black;
+       }
+      
+       nav li a:link, .nav li a:visited
+       {
+         display:inline-flex;
+         color:#000; 
+         border-right:1px solid #ffffff;
+         text-align: center;
+         text-decoration:none;
+         border-radius: 6px/6px;
+         padding: 8px 8px;
+         
+       }
+       
+       nav  li a:hover {background-color: #0055a4;} 
+       nav li a:active {background-color:#808080;} 
+      
+      
+       nav .soumenu
+       {
+         list-style-type:none;
+         display:none;
+         padding:10px;
+         margin:0px;
+         position: absolute;
+         
+       }
+       nav .soumenu li
+       {
+         padding:0px;
+         margin:0px;
+         float: none;
+         border-top:1px solid transparent;
+         border-right:1px solid transparent;
+       }
+       
+       nav .soumenu li a:link, nav li a:visited
+       {
+         display:inline-block;
+         text-decoration:none;
+         background-color:#0055a4;
+       }
+       
+       nav .soumenu li a:hover
+       {
+         color:#ffffff;
+         background-color:#0055a4;
+       
+       }
+       
+       nav li:hover .soumenu 
+       {
+         display:block;
+          margin-top:25px;
+       } 
+       .logetl{
+          font-family: 'Times New Roman', Times, serif;
+          font-style: normal;
+       }
+      
+       .Logoim{
+      
+          height:67px;
+          margin-left:1px;
+          margin-top:12px;
+          clip-path:circle();
+        }
+
+ #Courses{
+
+  display:flex;
+  margin-left:24px;
+}
+
+#Courses img{
+  transition:transform 0.4s;
+  border-radius: 10px;
+  border:solid 2px black;
+  box-shadow: 4px 5px #293245; 
+  margin-bottom: 20%;
+}
+#Courses img:hover{
+ transform: translateY(-13px);   
+ }
+#imcontainer{
+  text-align: center;
+  display:flex;
+}
+
+.cs{
+margin-top:10%;
+ width:310%;
+
+
+}
+.journalism{
+margin-top:10%;
+width:270%;
+
+
+}
+.arts{
+margin-top:10%;
+width:313%;
+
+}
+.medical{
+  margin-top:10%;
+  width:345%;
+}
+          
+      
+       .header-section{
+           margin-top: -8px;
+       }
+     .slider img{
+      width:100%;
+      margin-left:0.5%;
+      margin-right:0.5%;
+      margin-top: -20px;
+          }
+         
+      .footer {
+          background: linear-gradient(90deg,#293245,cyan,gray);
+          margin-left:3%;
+          margin-right:5%;
+         
+          
+          }
+          .footer ul{
+          
+          background:radial-gradient(white, #0055a4);
+          
+          }
+          .footer ul:hover{
+          
+          background:radial-gradient(cyan,blue);
+          }
+          
+          
+          
+          .footer p{
+          
+          padding:18px;
+          display:flex;
+          text-align:center;
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 16.5px;
+          }
+          
+           .footer p:hover{
+             
+           transform: translateX(-15px);
+           color:white;
+          
+             }
+          
+        
+          .footer .social_icon 
+          {
+            
+            margin-left:10px;
+            min-height:10px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-wrap:wrap;
+            margin-top:8px;
+            padding:15px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 16.5px;
+          }
+          
+          .footer  .social_icon li
+          {
+            list-style-type:none;
+              
+          }
+         
+          .footer .social_icon li a
+          {
+            font-size: 1.3em;
+            color:#293245;
+            margin:0 10px;
+            display:inline-block;
+            margin-bottom:-10px;
+            list-style-type:none;
+            text-decoration: none;
+          }
+          
+          .footer .social_icon li a:hover{
+            transform: translateY(-10px);
+            color:white;
+          
+          }
+
+}
+
+       /* laptop*/
+
+@media screen and (min-width:1024px) and (max-width:1600px)
+{
+
+ *{
+        margin: 0; 
+        padding: 0;
+        box-sizing: border-box; 
+      }
+     /* .header{
+      
+          background:red; 
+          padding: 6px; 
+        }
+        .header span{
+          background:#FFF;
+          color:red;
+          padding:14px;
+          font-size:20px;
+          margin-left:60px; 
+          position:absolute;
+          margin-top:-14px;
+        }
+        .header marquee{
+          color:white;
+          font-size:20px;
+          width:90%;
+          
+        }
+        .M{
+          font-family: 'Times New Roman',Times, serif;
+          font-size: 16px;
+          padding-top:4px ;
+          padding-bottom:1px;
+        } 
+      
+      body{
+      
+         font-family: 'Poppins',   sans-serif;     
+      }
+      
+      p{
+          font-size:x-large;
+          font-family: 'Times New Roman', Times, serif;
+          font-style: normal;
+      }
+      .navbar{
+      
+          display: flex;
+          align-items: center;
+          
+      }
+      .logetl{
+      
+          margin-left:-10;
+          margin-top:-30px;
+      }
+      
+      .logetl .Logoim{
+      
+          height:70px;
+          margin-left:62px;
+      }
+      
+      .language{
+      
+          margin-left:58px;
+          padding: 14px 3px ;  
+        }
+      
+      nav{
+      
+          flex: 1;
+          text-align:right;
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 18px; 
+      }
+      nav ul{
+      
+         display:inline-block;
+         list-style-type: none; 
+      }
+      nav ul li{
+      
+          display:inline-flex;
+          margin-right:20px;
+          
+       }
+       nav ul li a{
+      
+       text-decoration: none;
+       color: black;
+       }
+      
+       nav li a:link, .nav li a:visited
+       {
+         display:inline-flex;
+         color:#000; 
+         border-right:1px solid #ffffff;
+         text-align: center;
+         text-decoration:none;
+         border-radius: 6px/6px;
+         padding: 8px 8px;
+         
+       }
+       
+       nav  li a:hover {background-color: #0055a4;} 
+       nav li a:active {background-color:#808080;} 
+      
+      
+       nav .soumenu
+       {
+         list-style-type:none;
+         display:none;
+         padding:10px;
+         margin:0px;
+         position: absolute;
+         
+       }
+       nav .soumenu li
+       {
+         padding:0px;
+         margin:0px;
+         float: none;
+         border-top:1px solid transparent;
+         border-right:1px solid transparent;
+       }
+       
+       nav .soumenu li a:link, nav li a:visited
+       {
+         display:inline-block;
+         text-decoration:none;
+         background-color:#0055a4;
+       }
+       
+       nav .soumenu li a:hover
+       {
+         color:#ffffff;
+         background-color:#0055a4;
+       
+       }
+       
+       nav li:hover .soumenu 
+       {
+         display:block;
+          margin-top:25px;
+       } 
+       .logetl{
+          font-family: 'Times New Roman', Times, serif;
+          font-style: normal;
+       }
+      
+       .Logoim{
+      
+          height:67px;
+          margin-left:1px;
+          margin-top:12px;
+          clip-path:circle();
+        }
+*/
+
+
+.header{
+
+    background:#0055a4;
+    padding: 6px; 
+  }
+
+  .header span{
+    background:#FFF;
+    color:red;
+    padding:14px;
+    font-size:20px;
+    margin-left:60px; 
+    position:absolute;
+    margin-top:-14px;
+  }
+
+
+  .header marquee{
+    color:white;
+    font-size:20px;
+    width:90%;
+    /*margin-top:-50;*/
+    /*position:fixed;*/
+  }
+  .M{
+    font-family: 'Times New Roman',Times, serif;
+    font-size: 16px;
+    padding-top:4px ;
+    padding-bottom:1px;
+  } 
+
+body{
+
+   font-family: 'Poppins',   sans-serif;     /*'Times New Roman', Times, serif */
+}
+
+p{
+    font-size:x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+.navbar{
+
+    display: flex;
+    align-items: center;
+    /* padding:7px;  */
+}
+.logetl{
+
+    margin-left:-10;
+    margin-top:-30px;
+}
+
+.logetl .Logoim{
+
+    height:70px;
+    margin-left:62px;
+}
+
+.language{
+
+    margin-left:58px;
+    padding: /*AT THE BOTTOM*/14px /*AT THE TOP*/3px ;  
+  }
+
+nav{
+
+    flex: 1;
+    text-align:right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px; 
+}
+nav ul{
+
+   display:inline-block;
+   list-style-type: none; 
+}
+nav ul li{
+
+    display:inline-flex;
+    margin-right: 20px;
+ }
+ nav ul li a{
+
+ text-decoration: none;
+ /* color: #555; */
+ color: black;
+ }
+
+ nav li a:link, .nav li a:visited
+ {
+   display:inline-flex;
+   color:#000; 
+   border-right:1px solid #ffffff;
+   text-align: center;
+   text-decoration:none;
+   border-radius: 6px/6px;
+   padding: 8px 8px;
+ }
+ 
+ nav  li a:hover {background-color: #0055a4;} 
+ nav li a:active {background-color:#808080;} 
+
+
+ nav .soumenu
+ {
+   list-style-type:none;
+   display:none;
+   padding:10px;
+   margin:0px;
+   position: absolute;
+ }
+ nav .soumenu li
+ {
+   padding:0px;
+   margin:0px;
+   float: none;
+   border-top:1px solid transparent;
+   border-right:1px solid transparent;
+ }
+ 
+ nav .soumenu li a:link, nav li a:visited
+ {
+   display:inline-block;
+   text-decoration:none;
+   background-color:#0055a4;
+ }
+ 
+ nav .soumenu li a:hover
+ {
+   color:#ffffff;
+   background-color:#0055a4;
+ 
+ }
+ 
+ nav li:hover .soumenu 
+ {
+   display:block;
+    margin-top:25px;
+ } 
+ .logetl{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+ }
+
+ .Logoim{
+
+    height:67px;
+    margin-left:1px;
+    margin-top:12px;
+    clip-path:circle();
+  }
+
+ .container1{
+
+    max-width: 1200px;
+    margin: 30px auto;
+    padding-left:5px;
+    padding-right:25px;
+ }
+
+ #Courses{
+
+  display:flex;
+  margin-left:24px;
+}
+
+#Courses img{
+  transition:transform 0.4s;
+  border-radius: 10px;
+  border:solid 2px black;
+  box-shadow: 4px 5px #293245; 
+  margin-bottom: 20%;
+}
+#Courses img:hover{
+ transform: translateY(-13px);   
+ }
+#imcontainer{
+  text-align: center;
+  display:flex;
+}
+
+.cs{
+margin-top:10%;
+ width:310%;
+
+
+}
+.journalism{
+margin-top:10%;
+width:270%;
+
+
+}
+.arts{
+margin-top:10%;
+width:313%;
+
+}
+.medical{
+  margin-top:10%;
+  width:345%;
+}
+          
+      
+       .header-section{
+           margin-top: -8px;
+       }
+     .slider img{
+      width:100%;
+      margin-left:0.5%;
+      margin-right:0.5%;
+      margin-top: -20px;
+          }
+         
+      .footer {
+          background: linear-gradient(90deg,#293245,cyan,gray);
+          margin-left:3%;
+          margin-right:5%;
+         
+          
+          }
+          .footer ul{
+          
+          background:radial-gradient(white, #0055a4);
+          
+          }
+          .footer ul:hover{
+          
+          background:radial-gradient(cyan,blue);
+          }
+          
+          
+          
+          .footer p{
+          
+          padding:18px;
+          display:flex;
+          text-align:center;
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 16.5px;
+          }
+          
+           .footer p:hover{
+             
+           transform: translateX(-15px);
+           color:white;
+          
+             }
+          
+        
+          .footer .social_icon 
+          {
+            
+            margin-left:10px;
+            min-height:10px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-wrap:wrap;
+            margin-top:8px;
+            padding:15px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 16.5px;
+          }
+          
+          .footer  .social_icon li
+          {
+            list-style-type:none;
+              
+          }
+         
+          .footer .social_icon li a
+          {
+            font-size: 1.3em;
+            color:#293245;
+            margin:0 10px;
+            display:inline-block;
+            margin-bottom:-10px;
+            list-style-type:none;
+            text-decoration: none;
+          }
+          
+          .footer .social_icon li a:hover{
+            transform: translateY(-10px);
+            color:white;
+          
+          }
+}
+
+/* tablette mode landscape*/
+
+
+@media screen and (min-width: 760px) and (max-width:1023px)
+
+{
+
+ *{
+        margin: 0; 
+        padding: 0;
+        box-sizing: border-box; 
+      }
+      .header{
+      
+          /*background:#a08a11;  #0055a4 */
+            background: linear-gradient(90deg,#293245,cyan,gray);
+          padding: 6px; 
+        }
+        .header span{
+          background:#FFF;
+          color:red;
+          padding:14px;
+          font-size:20px;
+          margin-left:60px; 
+          position:absolute;
+          margin-top:-14px;
+        }
+        .header marquee{
+          color:white;
+          font-size:20px;
+          width:90%;
+          /*margin-top:-50;*/
+          /*position:fixed;*/
+        }
+        .M{
+          font-family: 'Times New Roman',Times, serif;
+          font-size: 16px;
+          padding-top:4px ;
+          padding-bottom:1px;
+        } 
+      
+      body{
+      
+         font-family: 'Poppins',   sans-serif;     /*'Times New Roman', Times, serif */
+      }
+      
+      p{
+          font-size:x-large;
+          font-family: 'Times New Roman', Times, serif;
+          font-style: normal;
+      }
+      .navbar{
+      
+          display: flex;
+          align-items: center;
+          /* padding:7px;  */
+      }
+      .logetl{
+      
+          margin-left:-10;
+          margin-top:-30px;
+      }
+      
+      .logetl .Logoim{
+      
+          height:70px;
+          margin-left:62px;
+      }
+      
+      .language{
+      
+          margin-left:58px;
+          padding: /*AT THE BOTTOM*/14px /*AT THE TOP*/3px ;  
+        }
+      
+      nav{
+      
+          flex: 1;
+          text-align:right;
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 18px; 
+      }
+      nav ul{
+      
+         display:inline-block;
+         list-style-type: none; 
+      }
+      nav ul li{
+      
+          display:inline-flex;
+          margin-right:20px;
+          
+       }
+       nav ul li a{
+      
+       text-decoration: none;
+       /* color: #555; */
+       color: black;
+       }
+      
+       nav li a:link, .nav li a:visited
+       {
+         display:inline-flex;
+         color:#000; 
+         border-right:1px solid #ffffff;
+         text-align: center;
+         text-decoration:none;
+         border-radius: 6px/6px;
+         padding: 8px 8px;
+         
+       }
+       
+       nav  li a:hover {background-color: #0055a4;} 
+       nav li a:active {background-color:#808080;} 
+      
+      
+       nav .soumenu
+       {
+         list-style-type:none;
+         display:none;
+         padding:10px;
+         margin:0px;
+         position: absolute;
+         
+       }
+       nav .soumenu li
+       {
+         padding:0px;
+         margin:0px;
+         float: none;
+         border-top:1px solid transparent;
+         border-right:1px solid transparent;
+       }
+       
+       nav .soumenu li a:link, nav li a:visited
+       {
+         display:inline-block;
+         text-decoration:none;
+         background-color:#0055a4;
+       }
+       
+       nav .soumenu li a:hover
+       {
+         color:#ffffff;
+         background-color:#0055a4;
+       
+       }
+       
+       nav li:hover .soumenu 
+       {
+         display:block;
+          margin-top:25px;
+       } 
+       .logetl{
+          font-family: 'Times New Roman', Times, serif;
+          font-style: normal;
+       }
+      
+       .Logoim{
+      
+          height:67px;
+          margin-left:1px;
+          margin-top:12px;
+          clip-path:circle();
+        }
+      
+       .container1{
+      
+          max-width: 1200px;
+          margin: 30px auto;
+          padding-left:5px;
+          padding-right:25px;
+       }
+
+ #Courses{
+
+  margin-top:-2%;
+  text-align:center;
+  display:inline-block;
+
+}
+
+#Courses img{
+  transition:transform 0.4s;
+
+  width:80%;
+  border-radius: 10px;
+  border:solid 2px black;
+  box-shadow: 4px 5px #293245; 
+}
+  #Courses img:hover{
+        transform: translateY(-13px);   
+      }
+.cs{
+margin-top:12%;
+
+}
+
+.journalism{
+margin-top:8%;
+}
+.arts{
+margin-top:8%;
+
+}
+.medical{
+  margin-top:8%;
+}
+          
+      
+       .header-section{
+           margin-top: -8px;
+       }
+     .slider img{
+      width:100%;
+      margin-left:0.5%;
+      margin-right:0.5%;
+      margin-top: -20px;
+          }
+         
+      .footer {
+          background: linear-gradient(90deg,#293245,cyan,gray);
+          /* width: 100%;*/
+          margin-left:3%;
+          margin-right:5%;
+          
+          }
+          .footer ul{
+          
+          background:radial-gradient(white, #0055a4);
+          /*width: 100%;*/ 
+          }
+          .footer ul:hover{
+          
+          background:radial-gradient(cyan,blue);
+          }
+          
+          /*THE footer of p */
+          
+          .footer p{
+          
+          padding:18px;
+          display:flex;
+          text-align:center;
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 16.5px;
+          }
+          
+           .footer p:hover{
+             
+           transform: translateX(-15px);
+           color:white;
+          
+             }
+          
+          /*THE footer social media */
+          .footer .social_icon 
+          {
+            
+            margin-left:10px;
+            min-height:10px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-wrap:wrap;
+            margin-top:8px;
+            padding:15px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 16.5px;
+          }
+          
+          .footer  .social_icon li
+          {
+            list-style-type:none;
+              
+          }
+          /*THE footer social media li and a */
+          .footer .social_icon li a
+          {
+            font-size: 1.3em;
+            color:#293245;
+            margin:0 10px;
+            display:inline-block;
+            margin-bottom:-10px;
+            list-style-type:none;
+            text-decoration: none;
+          }
+          
+          .footer .social_icon li a:hover{
+            transform: translateY(-10px);
+            color:white;
+          
+          }
+
+
+}
+
+
+   /*tablette or smartphone*/
+
+   @media screen and (max-width: 767px)
+
+   {
+    *{
+        margin: 0; 
+        padding: 0;
+        box-sizing: border-box; 
+      }
+      .header{
+      
+          background:#a3bed8;  /* #0055a4 */
+          padding: 6px; 
+        }
+        .header span{
+          background:#FFF;
+          color:red;
+          padding:14px;
+          font-size:20px;
+          margin-left:60px; 
+          position:absolute;
+          margin-top:-14px;
+        }
+        .header marquee{
+          color:white;
+          font-size:20px;
+          width:90%;
+          /*margin-top:-50;*/
+          /*position:fixed;*/
+        }
+        .M{
+          font-family: 'Times New Roman',Times, serif;
+          font-size: 16px;
+          padding-top:4px ;
+          padding-bottom:1px;
+        } 
+      
+      body{
+      
+         font-family: 'Poppins',   sans-serif;     /*'Times New Roman', Times, serif */
+      }
+      
+      p{
+          font-size:x-large;
+          font-family: 'Times New Roman', Times, serif;
+          font-style: normal;
+      }
+      .navbar{
+      
+          display: flex;
+          align-items: center;
+          /* padding:7px;  */
+      }
+      .logetl{
+      
+          margin-left:-10;
+          margin-top:-30px;
+      }
+      
+      .logetl .Logoim{
+      
+          height:70px;
+          margin-left:62px;
+      }
+      
+      .language{
+      
+          margin-left:58px;
+          padding: /*AT THE BOTTOM*/14px /*AT THE TOP*/3px ;  
+        }
+      
+      nav{
+      
+          flex: 1;
+          text-align:right;
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 18px; 
+      }
+      nav ul{
+      
+         display:inline-block;
+         list-style-type: none; 
+      }
+      nav ul li{
+      
+          display:inline-flex;
+          margin-right:20px;
+          
+       }
+       nav ul li a{
+      
+       text-decoration: none;
+       /* color: #555; */
+       color: black;
+       }
+      
+       nav li a:link, .nav li a:visited
+       {
+         display:inline-flex;
+         color:#000; 
+         border-right:1px solid #ffffff;
+         text-align: center;
+         text-decoration:none;
+         border-radius: 6px/6px;
+         padding: 8px 8px;
+         
+       }
+       
+       nav  li a:hover {background-color: #0055a4;} 
+       nav li a:active {background-color:#808080;} 
+      
+      
+       nav .soumenu
+       {
+         list-style-type:none;
+         display:none;
+         padding:10px;
+         margin:0px;
+         position: absolute;
+         
+       }
+       nav .soumenu li
+       {
+         padding:0px;
+         margin:0px;
+         float: none;
+         border-top:1px solid transparent;
+         border-right:1px solid transparent;
+       }
+       
+       nav .soumenu li a:link, nav li a:visited
+       {
+         display:inline-block;
+         text-decoration:none;
+         background-color:#0055a4;
+       }
+       
+       nav .soumenu li a:hover
+       {
+         color:#ffffff;
+         background-color:#0055a4;
+       
+       }
+       
+       nav li:hover .soumenu 
+       {
+         display:block;
+          margin-top:25px;
+       } 
+       .logetl{
+      
+          /* font-size:x-large; */
+          font-family: 'Times New Roman', Times, serif;
+          font-style: normal;
+       }
+      
+       .Logoim{
+      
+          height:67px;
+          margin-left:1px;
+          margin-top:12px;
+          clip-path:circle();
+        }
+      
+       .container1{
+          max-width: 1200px;
+          margin: 30px auto;
+          padding-left:5px;
+          padding-right:25px;
+       }
+      
+     #Courses{
+
+  margin-top:-2%;
+  text-align:center;
+  display:inline-block;
+
+}
+
+#Courses img{
+  transition:transform 0.4s;
+  width:85%;
+  border-radius: 10px;
+  border:solid 2px black;
+  box-shadow: 4px 5px #293245; 
+}
+  #Courses img:hover{
+        transform: translateY(-13px);   
+      }
+.cs{
+margin-top:6%;
+
+}
+
+.journalism{
+margin-top:6%;
+}
+.arts{
+margin-top:6%;
+
+}
+.medical{
+  margin-top:6%;
+}
+          
+      
+       .header-section{
+           /* background:radial-gradient(white,gray); pink */
+           margin-top: -8px;
+       }
+     .slider img{
+      width:100%;
+      margin-left:0.5%;
+      margin-right:0.5%;
+      margin-top: -20px;
+          }
+         
+      .footer {
+          background: linear-gradient(90deg,#293245,cyan,gray);
+          /* width: 100%;*/
+          margin-left:3%;
+          margin-right:5%;
+          
+          }
+          .footer ul{
+          
+          background:radial-gradient(white, #0055a4);
+          /*width: 100%;*/ 
+          }
+          .footer ul:hover{
+          
+          background:radial-gradient(cyan,blue);
+          }
+          
+          /*THE footer of p */
+          
+          .footer p{
+          
+          padding:18px;
+          display:flex;
+          text-align:center;
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 16.5px;
+          }
+          
+           .footer p:hover{
+             
+           transform: translateX(-15px);
+           color:white;
+          
+             }
+          
+          /*THE footer social media */
+          .footer .social_icon 
+          {
+            
+            margin-left:10px;
+            min-height:10px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-wrap:wrap;
+            margin-top:8px;
+            padding:15px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 16.5px;
+          }
+          
+          .footer  .social_icon li
+          {
+            list-style-type:none;
+              
+          }
+          /*THE footer social media li and a */
+          .footer .social_icon li a
+          {
+            font-size: 1.3em;
+            color:#293245;
+            margin:0 10px;
+            display:inline-block;
+            margin-bottom:-10px;
+            list-style-type:none;
+            text-decoration: none;
+          }
+          
+          .footer .social_icon li a:hover{
+            transform: translateY(-10px);
+            color:white;
+          
+          }
+
+   }
+
+
+
+   
+/*only the smartphone on landscape mode*/
+
+
+
+@media only screen and (max-width: 480px)
+
+
+{
+    *{
+        margin: 0; 
+        padding: 0;
+        box-sizing: border-box; 
+      }
+      .header{
+      
+          background:#a08a11;  /* #0055a4 */
+          padding: 6px; 
+        }
+        .header span{
+          background:#FFF;
+          color:red;
+          padding:14px;
+          font-size:20px;
+          margin-left:60px; 
+          position:absolute;
+          margin-top:-14px;
+        }
+        .header marquee{
+          color:white;
+          font-size:20px;
+          width:90%;
+          /*margin-top:-50;*/
+          /*position:fixed;*/
+        }
+        .M{
+          font-family: 'Times New Roman',Times, serif;
+          font-size: 16px;
+          padding-top:4px ;
+          padding-bottom:1px;
+        } 
+      
+      body{
+      
+         font-family: 'Poppins',   sans-serif;     /*'Times New Roman', Times, serif */
+      }
+      
+      p{
+          font-size:x-large;
+          font-family: 'Times New Roman', Times, serif;
+          font-style: normal;
+      }
+      .navbar{
+      
+          display: flex;
+          align-items: center;
+          /* padding:7px;  */
+      }
+      .logetl{
+      
+          margin-left:-10;
+          margin-top:-30px;
+      }
+      
+      .logetl .Logoim{
+      
+          height:70px;
+          margin-left:62px;
+      }
+      
+      .language{
+      
+          margin-left:58px;
+          padding: /*AT THE BOTTOM*/14px /*AT THE TOP*/3px ;  
+        }
+      
+      nav{
+      
+          flex: 1;
+          text-align:right;
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 18px; 
+      }
+      nav ul{
+      
+         display:inline-block;
+         list-style-type: none; 
+      }
+      nav ul li{
+      
+          display:inline-flex;
+          margin-right:20px;
+          
+       }
+       nav ul li a{
+      
+       text-decoration: none;
+       /* color: #555; */
+       color: black;
+       }
+      
+       nav li a:link, .nav li a:visited
+       {
+         display:inline-flex;
+         color:#000; 
+         border-right:1px solid #ffffff;
+         text-align: center;
+         text-decoration:none;
+         border-radius: 6px/6px;
+         padding: 8px 8px;
+         
+       }
+       
+       nav  li a:hover {background-color: #0055a4;} 
+       nav li a:active {background-color:#808080;} 
+      
+      
+       nav .soumenu
+       {
+         list-style-type:none;
+         display:none;
+         padding:10px;
+         margin:0px;
+         position: absolute;
+         
+       }
+       nav .soumenu li
+       {
+         padding:0px;
+         margin:0px;
+         float: none;
+         border-top:1px solid transparent;
+         border-right:1px solid transparent;
+       }
+       
+       nav .soumenu li a:link, nav li a:visited
+       {
+         display:inline-block;
+         text-decoration:none;
+         background-color:#0055a4;
+       }
+       
+       nav .soumenu li a:hover
+       {
+         color:#ffffff;
+         background-color:#0055a4;
+       
+       }
+       
+       nav li:hover .soumenu 
+       {
+         display:block;
+          margin-top:25px;
+       } 
+       .logetl{
+          font-family: 'Times New Roman', Times, serif;
+          font-style: normal;
+       }
+      
+       .Logoim{
+      
+          height:67px;
+          margin-left:1px;
+          margin-top:12px;
+          clip-path:circle();
+        }
+      
+       .container1{
+      
+          max-width: 1200px;
+          margin: 30px auto;
+          padding-left:5px;
+          padding-right:25px;
+       }
+
+ #Courses{
+
+  margin-top:-2%;
+  text-align:center;
+  display:inline-block;
+
+}
+
+#Courses img{
+  transition:transform 0.4s;
+
+  width:80%;
+  border-radius: 10px;
+  border:solid 2px black;
+  box-shadow: 4px 5px #293245; 
+}
+  #Courses img:hover{
+        transform: translateY(-13px);   
+      }
+.cs{
+margin-top: 12%;
+
+}
+
+.journalism{
+margin-top:8%;
+}
+.arts{
+margin-top:8%;
+
+}
+.medical{
+  margin-top:8%;
+}
+          
+      
+       .header-section{
+           margin-top: -8px;
+       }
+     .slider img{
+      width:100%;
+      margin-left:0.5%;
+      margin-right:0.5%;
+      margin-top: -20px;
+          }
+         
+      .footer {
+          background: linear-gradient(90deg,#293245,cyan,gray);
+          /* width: 100%;*/
+          margin-left:3%;
+          margin-right:5%;
+          
+          }
+          .footer ul{
+          
+          background:radial-gradient(white, #0055a4);
+          /*width: 100%;*/ 
+          }
+          .footer ul:hover{
+          
+          background:radial-gradient(cyan,blue);
+          }
+          
+          /*THE footer of p */
+          
+          .footer p{
+          
+          padding:18px;
+          display:flex;
+          text-align:center;
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 16.5px;
+          }
+          
+           .footer p:hover{
+             
+           transform: translateX(-15px);
+           color:white;
+          
+             }
+          
+          /*THE footer social media */
+          .footer .social_icon 
+          {
+            
+            margin-left:10px;
+            min-height:10px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-wrap:wrap;
+            margin-top:8px;
+            padding:15px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 16.5px;
+          }
+          
+          .footer  .social_icon li
+          {
+            list-style-type:none;
+              
+          }
+          /*THE footer social media li and a */
+          .footer .social_icon li a
+          {
+            font-size: 1.3em;
+            color:#293245;
+            margin:0 10px;
+            display:inline-block;
+            margin-bottom:-10px;
+            list-style-type:none;
+            text-decoration: none;
+          }
+          
+          .footer .social_icon li a:hover{
+            transform: translateY(-10px);
+            color:white;
+          
+          }
+
+
+
+}
